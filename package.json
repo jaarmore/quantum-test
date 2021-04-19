@@ -1,0 +1,25 @@
+{
+  "name": "quantum-test",
+  "version": "1.0.0",
+  "description": "This repo contains a simple API created using express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaarmore/quantum-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaarmore/quantum-test/issues"
+  },
+  "homepage": "https://github.com/jaarmore/quantum-test#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}

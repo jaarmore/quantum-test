@@ -60,7 +60,7 @@ function getAjuste(valores) {
     return precios;
 }
   // Create the POST route
- app.post('/', (req, res) => {
+ app.post('/mispollitos', (req, res) => {
      let data = req.body;
     
      if (Object.keys(data).length !== 0) {
